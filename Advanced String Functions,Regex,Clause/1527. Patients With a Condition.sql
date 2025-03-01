@@ -1,4 +1,4 @@
 # Write your MySQL query statement below
-SELECT patient_id, patient_name, conditions
-FROM Patients
-WHERE conditions REGEXP '\\bDIAB1'
+Select patient_id,patient_name, conditions 
+from Patients 
+WHERE conditions Regexp '^DIAB1| DIAB1';
